@@ -1,0 +1,318 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.Parent {
+    max-width: 0px auto;
+}
+
+
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px;
+}
+
+.child {
+    display: flex;
+    gap: 50px;
+    color: #002f34;
+    align-items: center;
+
+}
+
+.olx-logo {
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+.Motors {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.Motor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Motor:hover {
+
+    color: #27a4e5;
+}
+
+.Motor-cycle {
+    background-color: #e1e6e7;
+    width: 35px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
+.property {
+    margin-top: 18px;
+}
+
+.properties {
+    display: flex;
+    gap: 17px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+.properties span {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.properties:hover {
+    color: #27a4e5;
+}
+
+.building {
+    background-color: #e1e6e7;
+    width: 35px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.input-box {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 40px;
+    gap: 12px;
+    top: 70px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #002f34;
+    margin-right: 4px;
+
+}
+
+.Pakistan {
+    color: #002f34;
+    background: none;
+}
+
+
+.Main-input {
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #002f34;
+}
+
+.Second-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Main-input input {
+    border: none;
+    outline: none;
+    color: #002f34;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Main-input-two {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-top: 18px;
+    height: 40px;
+}
+
+.placeholder {
+    width: 300px;
+    font-size: 15px;
+    background: none;
+}
+
+.input-1 input {
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    margin-left: 55px;
+    background-color: #002f34;
+    color: white;
+
+}
+
+.search {
+    color: white;
+}
+
+.login {
+    color: #002f34;
+    font-size: 20px;
+    border-bottom: 2px solid #002f34;
+    margin-top: 12px;
+    margin-left: 9px;
+}
+
+.login:hover {
+    border: none;
+}
+
+.btn {
+    margin-top: 10px;
+    border: 5px solid #27a4e5;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.btn button {
+    border: none;
+    font-size: 12px;
+    color: #002f34;
+    background: none;
+}
+
+.btn:hover {
+    border: 5px solid #002f34;
+}
+
+.olx-button:hover {
+    background-color: #002f34;
+    color: white;
+}
+
+
+.main-list {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.main-list span {
+    margin-left: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #002f34;
+    font-weight: 700;
+}
+
+.list-item ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 17px;
+    color: #002f34;
+}
+
+.list-item ul li:hover {
+    color: #27a4e5;
+}
+
+
+
+.card {
+    display: inline-block;
+    border: none;
+    max-height: max-content;
+    max-width: max-content;
+    margin-top: 20px;
+
+
+}
+
+.cards {
+    display: inline-block;
+    border: none;
+    height: 380px;
+    width: 280px;
+    border-radius: 30px;
+    transform: scale(1);
+    transition-duration: 2s;
+    margin: 0px 10px;
+
+}
+
+.card-img {
+    border: none;
+    border-radius: 30px;
+
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    width: 150px;
+
+}
+
+.city-para {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.rate {
+    display: flex;
+    margin-top: 7px;
+
+
+}
+
+.star {
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.stay {
+    color: gray;
+
+}
